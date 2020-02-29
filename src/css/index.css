@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+#top {
+  height: 40px;
+  background-color: #333;
+  overflow: hidden;
+}
+#top .top-left {
+  float: left;
+  margin-left: 145px;
+}
+#top .top-left a {
+  font-size: 12px;
+  color: #F5F5F5;
+  display: line-block;
+  padding: 0 16px;
+  height: 40px;
+  line-height: 40px;
+}
+#top .top-right {
+  float: right;
+  margin-right: 92px;
+}
+#top .top-right li {
+  padding: 0 10px;
+  display: inline-block;
+}
+#top .top-right li a {
+  color: #F5F5F5;
+  font-size: 12px;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+}
+#top .top-right li a.line::after {
+  content: "/";
+  margin: 0 6px;
+  color: #564833;
+}
+#top .top-right li i {
+  color: #F5F5F5;
+  font-size: 12px;
+}
+
+#logo {
+  width: 100%;
+  height: 168px;
+}
+#logo img {
+  width: 110px;
+  display: block;
+  padding: 58px 0;
+  margin: 0 auto;
+}
+
+#nav {
+  height: 50px;
+  background-color: white;
+}
+#nav .nav-con {
+  width: 1190px;
+  margin: 0 auto;
+}
+#nav .nav-con .nav-left {
+  width: 930px;
+  float: left;
+}
+#nav .nav-con .nav-left li {
+  width: 110px;
+  float: left;
+}
+#nav .nav-con .nav-left li a {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+#nav .nav-con .nav-right {
+  width: 260px;
+  float: right;
+}
+
+#pic {
+  height: 567px;
+  background-color: white;
+}
+#pic .pic-top {
+  width: 1190px;
+  height: 114px;
+  margin: 0 auto;
+  background-color: white;
+}
+#pic .pic-top .title {
+  text-align: center;
+  align-content: centers;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 63px;
+}
+#pic .pic-top .tabs1 {
+  text-align: center;
+  margin: 25px auto 40px;
+}
+#pic .pic-top .tabs1 a {
+  text-decoration: none;
+  color: #000;
+}
+#pic .pic-bot {
+  overflow: hidden;
+  height: 415px;
+  margin: 0 auto;
+  background-color: white;
+}
+#pic .pic-bot .pic-box {
+  width: 1190px;
+  height: 415px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 30px;
+}
+#pic .pic-bot .pic-box .pic-smo {
+  width: 230px;
+  text-align: center;
+  border: 1px solid #666;
+  float: left;
+  margin-left: 20px;
+}
+#pic .pic-bot .pic-box .pic-smo .pic-smo a:hover {
+  background-color: #666;
+}
+#pic .pic-bot .pic-box .pic-smo .dt {
+  width: 210px;
+  height: 270px;
+  padding: 20px;
+}
+#pic .pic-bot .pic-box .pic-smo .xt {
+  width: 54px;
+  height: 24px;
+  margin: 0 auto;
+}
+#pic .pic-bot .pic-box .pic-smo p {
+  font-weight: bold;
+}
+
+#footT {
+  width: 100%;
+  height: 116px;
+  background: #333;
+  border-bottom: 1px solid #666;
+}
+#footT .footT-con {
+  margin-top: 46px;
+  margin-bottom: 42px;
+  font-size: 18px;
+  color: white;
+}
+#footT .footT-con li {
+  float: left;
+}
+
+/*# sourceMappingURL=index.css.map */

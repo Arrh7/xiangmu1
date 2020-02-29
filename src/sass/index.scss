@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+ 
+  ul, ol, li{
+    list-style: none;
+  }
+  // top 部分
+  #top {
+    height: 40px;
+    background-color: #333;
+    overflow: hidden;
+    .top-left{
+      float: left;
+      margin-left: 145px;
+      a{
+        font-size: 12px;
+        color: #F5F5F5;
+        display: line-block;
+        padding: 0 16px;
+        height: 40px;
+        line-height: 40px;
+      }
+    }
+    .top-right{
+      float: right;
+      margin-right: 92px;
+      li{
+        padding: 0 10px;
+        display: inline-block;
+        a{
+          color: #F5F5F5;
+          font-size: 12px;
+          display: inline-block;
+          height: 40px;
+          line-height: 40px;
+        }
+        a.line::after{
+          content: "/";
+          margin: 0 6px;
+          color: #564833;
+        }
+        i {
+          color: #F5F5F5;
+          font-size: 12px;
+        }
+      }
+      
+    }
+  }
+  // logo
+  #logo{
+    width: 100%;
+    height: 168px;
+    img{
+      width: 110px;
+      display: block;
+      padding: 58px 0;
+      margin: 0 auto;
+    }
+    
+  }
+  //nav
+  #nav{
+    height: 50px;
+    background-color: white;
+    .nav-con{
+     width: 1190px;
+     margin: 0 auto;
+      .nav-left{
+       width: 930px;
+       float: left;
+       li{
+       width: 110px;
+       float: left;
+       a{
+       font-weight: bold;
+       font-size: 20px;
+        color: #000;
+        text-decoration: none;
+       }
+      }
+     }
+    .nav-right{
+      width: 260px;
+      float: right;
+    }
+
+    }
+   
+  }
+
+  //banner
+
+
+  // pic
+  #pic{
+    height: 567px;
+    background-color: white;
+    // margin: 66px 0 30px;
+    .pic-top{
+      width: 1190px;
+      height: 114px;
+      margin: 0 auto;
+      background-color: white;
+    .title{
+      text-align: center;
+      align-content: centers;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 63px;
+    }
+    .tabs1{
+      text-align: center;
+      margin: 25px auto 40px;
+      a{
+        text-decoration: none;
+        color: #000;
+      }
+    }
+    }
+    .pic-bot{
+      overflow: hidden;
+      height: 415px;
+      margin: 0 auto;
+      background-color: white;
+     .pic-box{
+       width:1190px;
+       height: 415px;
+       background-color: white;
+       margin: 0 auto;
+       padding: 30px;
+       
+       .pic-smo{
+         width: 230px;
+        //  height: 405px;
+         text-align: center;
+         border: 1px solid #666;
+         float: left;
+         margin-left: 20px;
+         .pic-smo a:hover{
+           background-color: #666;
+         }
+         .dt{
+           width: 210px;
+           height: 270px;
+           padding: 20px;
+         }
+         .xt{
+           width: 54px;
+           height: 24px;
+           margin: 0 auto;
+         }
+         p{
+           font-weight: bold;
+         }
+       }
+    
+    }
+ 
+  }
+    
+  }  
+  //foot
+  #footT{
+    width: 100%;
+    height: 116px;
+    background: #333;
+    border-bottom: 1px solid #666;
+    .footT-con{
+      margin-top: 46px;
+      margin-bottom: 42px;
+      font-size: 18px;
+     color: white;
+    //  margin: 0 auto;
+     li{
+       float: left;
+     }
+    }
+  }
