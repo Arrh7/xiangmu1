@@ -135,6 +135,9 @@ ul, ol, li {
 #pic .pic-bot .pic-box .pic-smo .pic-smo a:hover {
   background-color: #666;
 }
+#pic .pic-bot .pic-box .pic-smo a {
+  text-decoration: none;
+}
 #pic .pic-bot .pic-box .pic-smo .dt {
   width: 210px;
   height: 270px;
@@ -149,6 +152,68 @@ ul, ol, li {
   font-weight: bold;
 }
 
+#main {
+  height: 758px;
+  background-color: white;
+}
+#main .main-top {
+  width: 1190px;
+  height: 114px;
+  margin: 0 auto;
+  background-color: white;
+}
+#main .main-top .title2 {
+  text-align: center;
+  align-content: centers;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 63px;
+}
+#main .main-top .tabs2 {
+  text-align: center;
+  margin: 25px auto 40px;
+}
+#main .main-top .tabs2 a {
+  text-decoration: none;
+  color: #000;
+}
+#main .main-bot {
+  height: 670px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+#main .main-bot .main-pic {
+  width: 990px;
+  margin: 0 auto;
+}
+#main .main-bot .main-pic li {
+  float: left;
+  padding-right: 15px;
+}
+#main .main-bot .main-pic .pp {
+  position: relative;
+}
+#main .main-bot .main-pic .pp .hover {
+  width: 315px;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.8;
+  display: block;
+}
+#main .main-bot .main-pic .pp .hover div:hover {
+  display: block;
+}
+#main .main-bot .main-pic .pp .hover .hide {
+  display: none;
+}
+#main .main-bot .main-pic .pp .hover img {
+  margin: 180px 0;
+}
+
 #footT {
   width: 100%;
   height: 116px;
@@ -156,13 +221,118 @@ ul, ol, li {
   border-bottom: 1px solid #666;
 }
 #footT .footT-con {
-  margin-top: 46px;
-  margin-bottom: 42px;
+  width: 1190px;
+  height: 27px;
   font-size: 18px;
+  padding: 40px;
   color: white;
+  margin: 0 auto;
+  font: 18px tahoma, "Microsoft YaHei";
 }
 #footT .footT-con li {
   float: left;
+  margin: 0 20px;
+}
+#footT .footT-con li i {
+  margin: 0 10px;
+}
+
+#foot-nav {
+  width: 100%;
+  height: 480px;
+  background: #333;
+}
+#foot-nav .footT-top {
+  width: 1120px;
+  height: 475px;
+  background-color: #333;
+  margin: 0 auto;
+}
+#foot-nav .footT-top .footT-content {
+  width: 100%;
+  height: 176px;
+}
+#foot-nav .footT-top .footT-content ul {
+  float: left;
+  padding: 20px 35px;
+  color: white;
+}
+#foot-nav .footT-top .footT-content li {
+  padding-top: 15px;
+}
+#foot-nav .footT-top .footT-content .foot-li:hover {
+  color: #DB5711;
+  cursor: pointer;
+  font-weight: bold;
+}
+#foot-nav .footT-top .footT-content a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #666;
+  margin: 20px 0;
+}
+#foot-nav .footT-top2 {
+  width: 1120PX;
+  height: 228px;
+  background-color: #333;
+}
+#foot-nav .footT-top2 .left {
+  width: 407px;
+  height: 47px;
+  background-color: #333;
+  float: left;
+  margin-top: 160px;
+  margin-left: 5px;
+}
+#foot-nav .footT-top2 .left ul li {
+  float: left;
+}
+#foot-nav .footT-top2 .left img {
+  width: 116px;
+  height: 47px;
+  padding-right: 15px;
+}
+#foot-nav .footT-top2 .right {
+  width: 600px;
+  height: 152px;
+  background-color: #333;
+  float: right;
+  margin-top: 55px;
+}
+#foot-nav .footT-top2 .right ul li {
+  float: left;
+  margin: 10px;
+}
+#foot-nav .footT-top2 .right .item {
+  margin-left: 80px;
+}
+#foot-nav .footT-top2 .right img {
+  width: 120px;
+  height: 120px;
+}
+#foot-nav .footT-top2 .right p {
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  font-size: 12px;
+}
+#foot-nav .foot-bottom {
+  height: 32px;
+  color: white;
+}
+#foot-nav .foot-bottom ul {
+  float: left;
+}
+#foot-nav .foot-bottom li {
+  color: white;
+  float: left;
+  padding: 10px;
+}
+#foot-nav .foot-bottom span {
+  color: white;
+}
+#foot-nav .foot-ww {
+  color: white;
 }
 
 /*# sourceMappingURL=index.css.map */
