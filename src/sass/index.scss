@@ -65,6 +65,12 @@
   #nav{
     height: 50px;
     background-color: white;
+    overflow: hidden;
+    .fixed {
+      position: fixed;
+      top: 0;
+      left: 0;
+  }
     .nav-con{
      width: 1190px;
      margin: 0 auto;
@@ -99,6 +105,7 @@
     height: 567px;
     background-color: white;
     // margin: 66px 0 30px;
+    margin: 0 auto;
     .pic-top{
       width: 1190px;
       height: 114px;
@@ -120,52 +127,50 @@
       }
     }
     }
-    .pic-bot{
-      overflow: hidden;
-      height: 415px;
-      margin: 0 auto;
-      background-color: white;
-     .pic-box{
-       width:1190px;
-       height: 415px;
-       background-color: white;
-       margin: 0 auto;
-       padding: 30px;
-      
-       .pic-smo{
-         width: 230px;
-        //  height: 405px;
-         text-align: center;
-         border: 1px solid #666;
-         float: left;
-         margin-left: 20px;
-       
-         .pic-smo a:hover{
-           background-color: #666;
-         }
-         a{
-          text-decoration: none;
-         }
-         .dt{
-           width: 210px;
-           height: 270px;
-           padding: 20px;
-         }
-         .xt{
-           width: 54px;
-           height: 24px;
-           margin: 0 auto;
-         }
-         p{
-           font-weight: bold;
-         }
-       }
-    
-    }
  
   }
-    
-  }  
+  .swiper-container.banner2 {
+    width:1120px;
+    height: 420px;
+}   
+.swiper-button-prev{
+  color: #333;
+  width: 50px;
+  height: 50px;
+}
+.swiper-button-next{
+  color: #333;
+  width: 50px;
+  height: 50px;
+}
+
+.pic-smo{
+  width:230px;
+  height: 320px;
+  text-align:center;
+  border: 1px solid #F5F5F5;
+  margin: 0 auto;
+  
+   a{
+    text-decoration: none;
+   }
+   .xt{
+     width: 54px;
+     height: 24px;
+     margin: 0 auto;
+     
+   }
+   span{
+     padding: 5px 0;
+     color: #666;
+   }
+   p{
+     font-weight: bold;
+     color: #666;
+     padding: 5px 0;
+   }
+ }
+ 
 
   //main
   #main{
@@ -194,20 +199,21 @@
     }
   }
   .main-bot{
-    height: 670px;
+    height: 645px;
     margin: 0 auto;
     padding-top: 60px;
     .main-pic{
      width: 990px;
+     height: 430px;
     margin: 0 auto;
     li{
       float: left;
-      padding-right: 15px;
-    }
-    .pp{
+      padding-right: 15px; 
       position: relative;
-  
-    .hover{
+      display: block;
+    }
+   
+    .hover:hover{
     width: 315px;
     height: 100%;
     position: absolute;
@@ -215,26 +221,123 @@
     top: 0;
     left: 0;
     background: #000;
-    // filter: alpha(opacity=80);
     opacity: .8;
-    
-    display: block;
+    }
   
-    div:hover{
+    // div:hover{
+    //   display: block;
+    // }
+    .hide:hover{
       display: block;
     }
-    .hide{
-      display: none;
     }
+  //   .hover img {
+  //     margin: 180px 0;
+  // }
+  .pic-box{
+    width: 1110px;
+    height: 75px;
+    margin: 0 auto;
+    padding-right: 20px;
+    li{
+      float: left;
+      margin: 30px 20px;
+     
     }
-    .hover img {
-      margin: 180px 0;
-  }
-}
-}
-  }
-  
+    img{
+      width: 68px;
+      height: 30px;
+    }
 
+  }
+}
+}
+  
+//new
+#new-con{
+  width: 1190px;
+  height: 900px;
+  margin: 0 auto;
+ 
+//头
+  .new-top{
+    height:98px;
+    background-color: white;
+    .text1{
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 10px;
+    }
+    .text2{
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+ //中视频 
+  .new-mov{
+    height:463px;
+    background-color: white;
+    li{
+      float:left;
+      padding:0 20px;
+      margin-right: 10px;
+    }
+    
+  }
+//脚图片
+ .new-bot{
+   height: 250px;
+   background-color:white;
+   margin-top: 30px;
+   .new-pp{
+    width: 1190px;
+    font-size: 0;
+     
+   }
+   li{
+     float: left;
+     
+   }
+   img{
+     width: 213px;
+     height: 240px;
+     margin: 0 30px;
+   }
+   li p {
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    z-index: 9999;
+    display: none;
+   div{
+     display: block;
+   }
+  }
+ }
+}
+
+//mov
+ .mov-con{
+   width: 1082px;
+   height: 444px;
+   margin: 0 auto;
+   .video{
+     width: 990px;
+     height: 444px;
+     margin: 0 auto;
+     text-align: center;
+   }
+ }
+//tup
+.tup{
+  width: 1082px;
+  height: 600px;
+  margin: 0 auto;
 }
 
 
