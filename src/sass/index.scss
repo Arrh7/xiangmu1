@@ -74,29 +74,77 @@
     .nav-con{
      width: 1190px;
      margin: 0 auto;
-      .nav-left{
-       width: 930px;
-       float: left;
-       li{
-       width: 110px;
-       float: left;
-       a{
-       font-weight: bold;
-       font-size: 20px;
-        color: #000;
-        text-decoration: none;
-       }
+     .nav-left {
+      > ul {
+        display: flex;
+        padding: 20px 0;
+    
+        > li {
+          padding: 0 40px;
+          font-size: 22px;
+          cursor: pointer;
+          font-weight: bold;
+        }
       }
-     }
+    }
+    
     .nav-right{
       width: 260px;
+      height: 50px;
       float: right;
     }
 
     }
-   
+    
   }
-
+  .nav-box {
+    width: 1190px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    display: none;
+    position: relative;
+    z-index: 9999;
+    margin: 0 auto;
+  
+    > ul {
+      display: flex;
+  
+      > li {
+        flex: 1;
+        padding: 10px;
+  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        > div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-right: 1px solid #333;
+          margin-bottom: 15px;
+  
+          img {
+            width: 160px;
+            height: 110px;
+            display: block;
+          }
+        }
+  
+        > p {
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+  
+        &:last-child {
+  
+          > div {
+            border: none;
+          }
+        }
+      }
+    }
+  }
   //banner
 
 
@@ -182,7 +230,6 @@
       height: 114px;
       margin: 0 auto;
       background-color: white;
-<<<<<<< HEAD
     .title2{
       text-align: center;
       align-content: centers;
@@ -197,44 +244,6 @@
         text-decoration: none;
         color: #000;
       }
-=======
-     .pic-box{
-       width:1190px;
-       height: 415px;
-       background-color: white;
-       margin: 0 auto;
-       padding: 30px;
-      
-       .pic-smo{
-         width: 230px;
-        //  height: 405px;
-         text-align: center;
-         border: 1px solid #666;
-         float: left;
-         margin-left: 20px;
-       
-         .pic-smo a:hover{
-           background-color: #666;
-         }
-         a{
-          text-decoration: none;
-         }
-         .dt{
-           width: 210px;
-           height: 270px;
-           padding: 20px;
-         }
-         .xt{
-           width: 54px;
-           height: 24px;
-           margin: 0 auto;
-         }
-         p{
-           font-weight: bold;
-         }
-       }
-    
->>>>>>> 233066f02119aa47c44211e41ee3f956eb3e0a64
     }
   }
   .main-bot{
@@ -273,22 +282,22 @@
   //   .hover img {
   //     margin: 180px 0;
   // }
-  .pic-box{
-    width: 1110px;
-    height: 75px;
-    margin: 0 auto;
-    padding-right: 20px;
-    li{
-      float: left;
-      margin: 30px 20px;
-     
-    }
-    img{
-      width: 68px;
-      height: 30px;
-    }
+    .pic-box{
+      width: 1110px;
+      height: 75px;
+      margin: 0 auto;
+      padding-right: 20px;
+      li{
+        float: left;
+        margin: 30px 20px;
+      
+      }
+      img{
+        width: 68px;
+        height: 30px;
+      }
 
-  }
+    }
 }
 }
   
@@ -323,7 +332,6 @@
       margin-right: 10px;
     }
     
-<<<<<<< HEAD
   }
 //脚图片
  .new-bot{
@@ -378,78 +386,6 @@
   width: 1082px;
   height: 600px;
   margin: 0 auto;
-=======
-  }  
-
-  //main
-  #main{
-    height: 758px;
-    background-color: white;
-    // margin: 66px 0 30px;
-    .main-top{
-      width: 1190px;
-      height: 114px;
-      margin: 0 auto;
-      background-color: white;
-    .title2{
-      text-align: center;
-      align-content: centers;
-      font-weight: bold;
-      font-size: 30px;
-      line-height: 63px;
-    }
-    .tabs2{
-      text-align: center;
-      margin: 25px auto 40px;
-      a{
-        text-decoration: none;
-        color: #000;
-      }
-    }
-  }
-  .main-bot{
-    height: 670px;
-    margin: 0 auto;
-    padding-top: 60px;
-    .main-pic{
-     width: 990px;
-    margin: 0 auto;
-    li{
-      float: left;
-      padding-right: 15px;
-    }
-    .pp{
-      position: relative;
-  
-    .hover{
-    width: 315px;
-    height: 100%;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    left: 0;
-    background: #000;
-    // filter: alpha(opacity=80);
-    opacity: .8;
-    
-    display: block;
-  
-    div:hover{
-      display: block;
-    }
-    .hide{
-      display: none;
-    }
-    }
-    .hover img {
-      margin: 180px 0;
-  }
-}
-}
-  }
-  
-
->>>>>>> 233066f02119aa47c44211e41ee3f956eb3e0a64
 }
 
 
@@ -477,68 +413,8 @@
        i{
          margin: 0 10px;
        }
-<<<<<<< HEAD
-=======
      }
-    }
-  }
-  #foot-nav{
-    width: 100%;
-    height: 480px;
-    background: #333;
-  .footT-top{
-    width: 1120px;
-    height: 475px;
-    background-color: #333;
-    margin:0 auto;
-    .footT-content{
-      width: 100%;
-      height: 176px;
-      ul{
-        float: left;
-        padding: 20px 35px;
-        color: white;
-      }
-      li{
-        padding-top: 15px;
-      }
-      .foot-li:hover{
-        color: #DB5711;
-        cursor: pointer;
-        font-weight: bold;
-        // color: white;
-      }
-      
-      a{
-        text-decoration: none;
-        font-size: 12px;
-        color: #666;
-        margin: 20px 0;
-      }
-    }
-  }
-  .footT-top2{
-    width: 1120PX;
-    height: 228px;
-    background-color: #333;
     
-    .left{
-      width: 407px;
-      height: 47px;
-      background-color: #333;
-     float: left;
-     margin-top: 160px;
-     margin-left: 5px;
-     ul li{
-       float: left;
-     }
-     img{
-       width: 116px;
-       height: 47px;
-       padding-right: 15px;
->>>>>>> 233066f02119aa47c44211e41ee3f956eb3e0a64
-     }
-
     }
     .right{
       width: 600px;
@@ -578,7 +454,6 @@
       float: left;
       padding: 10px;
     }
-<<<<<<< HEAD
   }
   #foot-nav{
     width: 100%;
@@ -675,8 +550,6 @@
       float: left;
       padding: 10px;
     }
-=======
->>>>>>> 233066f02119aa47c44211e41ee3f956eb3e0a64
     span{
       color: white;
     }

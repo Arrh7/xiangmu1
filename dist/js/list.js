@@ -1,1 +1,1 @@
-"use strict";
+"use strict";$(".liu-ul >.liu-li ").click(function(){$(this).toggleClass("active").children("ol").slideToggle().parent().siblings().removeClass("active").children("ol").slideUp()});

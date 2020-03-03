@@ -96,3 +96,276 @@
     }
    
   }
+
+//back
+.back{
+  width: 1190px;
+  height: 68px;
+  margin: 0 auto;
+  span{
+    float: left;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+ //瀑布流 liu
+ #liu{
+   width: 1180px;
+   height: 2181px;
+   margin: 0 auto;
+
+   //右边栏目
+   .liu-left{
+    width:170px;
+    height: 280px;
+    float: left;
+    p{
+      color: #666;
+      // text-align: center;
+      font-size: 12px;
+    }
+    .liu-ul{
+      width: 170px;
+
+    }
+    li{
+      font-weight: bold;
+      font-size: 15px;
+      padding: 0 5px;
+    }
+    .liu-ul >.liu-li {
+      cursor: pointer;
+
+    }
+
+    /* 二级菜单 */
+    .liu-li >.liu-ol {
+      padding-left: 20px;
+      font-size: 12px;
+    }
+
+    /* 包含一级菜单和二级菜单的所有 li */
+    .liu-li::before {
+      content: '♦ ';
+    }
+
+    // // /* 有 active 类名的 li 的 before 伪元素样式 */
+    .liu-li.active::before {
+      content: '❤ ';
+    }
+    
+   }
+   //左边上方
+   .liu-right{
+    width: 1010px;
+    float: right;
+    .n-top{
+     width: 1010px;
+     height: 51px;
+     background-color: paleturquoise;
+     border-bottom:1px solid #666;
+
+     .n-le{
+       width: 505px;
+       float: left;
+       ul li{
+         float: left;
+         font-size: 15px;
+         line-height: 50px;
+         padding:0 30px ;
+       }
+       a{
+         color: black;
+       }
+     }
+     .n-ri{
+       float: right;
+       margin-top: 18px;
+       a{
+         color: black;
+       }
+      
+     }
+    }
+
+
+   }
+ }
+
+
+
+  
+  //foot
+  #footT{
+    width: 100%;
+    height: 116px;
+    background: #333;
+    border-bottom: 1px solid #666;
+    .footT-con{
+      width: 1190px;
+      height: 27px;
+      // margin-top: 46px;
+      // margin-bottom: 42px;
+      font-size: 18px;
+      padding: 40px;
+      color: white;
+    //  font-weight: bold;
+   
+      margin: 0 auto;
+       font: 18px tahoma,'Microsoft YaHei';
+     li{
+       float: left;
+       margin: 0 20px;
+       i{
+         margin: 0 10px;
+       }
+     }
+    
+    }
+    .right{
+      width: 600px;
+      height: 152px;
+      background-color: #333;
+      float: right;
+      margin-top:55px;
+      
+      ul li{
+        float: left;
+        margin: 10px ;
+      }
+      .item{
+        margin-left: 80px;
+      }
+      img{
+        width: 120px;
+        height: 120px;
+      }
+      p{
+        text-align: center;
+        color: white;
+        padding-top: 5px;
+        font-size: 12px;
+      }
+    }
+    
+  }
+  .foot-bottom{
+    height: 32px;
+    color: white;
+    ul{
+      float: left;
+    }
+    li{
+      color: white;
+      float: left;
+      padding: 10px;
+    }
+  }
+  #foot-nav{
+    width: 100%;
+    height: 480px;
+    background: #333;
+  .footT-top{
+    width: 1120px;
+    height: 475px;
+    background-color: #333;
+    margin:0 auto;
+    .footT-content{
+      width: 100%;
+      height: 176px;
+      ul{
+        float: left;
+        padding: 20px 35px;
+        color: white;
+      }
+      li{
+        padding-top: 15px;
+      }
+      .foot-li:hover{
+        color: #DB5711;
+        cursor: pointer;
+        font-weight: bold;
+        // color: white;
+      }
+      
+      a{
+        text-decoration: none;
+        font-size: 12px;
+        color: #666;
+        margin: 20px 0;
+      }
+    }
+  }
+  .footT-top2{
+    width: 1120PX;
+    height: 228px;
+    background-color: #333;
+    
+    .left{
+      width: 407px;
+      height: 47px;
+      background-color: #333;
+     float: left;
+     margin-top: 160px;
+     margin-left: 5px;
+     ul li{
+       float: left;
+     }
+     img{
+       width: 116px;
+       height: 47px;
+       padding-right: 15px;
+     }
+
+    }
+    .right{
+      width: 600px;
+      height: 152px;
+      background-color: #333;
+      float: right;
+      margin-top:55px;
+      
+      ul li{
+        float: left;
+        margin: 10px ;
+      }
+      .item{
+        margin-left: 80px;
+      }
+      img{
+        width: 120px;
+        height: 120px;
+      }
+      p{
+        text-align: center;
+        color: white;
+        padding-top: 5px;
+        font-size: 12px;
+      }
+    }
+    
+  }
+  .foot-bottom{
+    height: 32px;
+    color: white;
+    ul{
+      float: left;
+    }
+    li{
+      color: white;
+      float: left;
+      padding: 10px;
+    }
+    span{
+      color: white;
+    }
+  }
+  .foot-ww{
+    color:white;
+   
+  }
+ 
+}
