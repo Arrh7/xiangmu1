@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../sass/list.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../lib/swiper/css/swiper.min.css">
+
 </head>
 
 <body>
@@ -158,56 +159,24 @@
                      <li><a href="#">新品</a></li>
                      <li><a href="#">热销</a></li>
                      <li><a href="#">推荐</a></li>
-                     <li><a href="#">价格</a></li>
+                     <li class="sort">价格</li>
                      <li><a href="#">折扣</a></li>
                  </ul>
              </div>
-             <div class="n-ri">
-             <span>1-438页/</span>
-             <a href="#">上一页/</a>
-             <a href="#">上一页</a>
-            </div>
-            </div>
-
+          
+            <div class="pagi m-style"></div>
+            
+          
 
             <!-- 下方瀑布流 -->
             <div class="n-bot">
-                <div class="row">
-                    <div class="col-sm-6 col-md-4">
-                      <div class="thumbnail">
-                        <img src="../images/lb.jpg" alt="">
-                        <div class="caption">
-                          <h3></h3>
-                          <p>Teenmix/天美意2020夏新款商场同款休闲厚底闪钻贴片女凉拖鞋AW611BT0</p>
-                          <p><a href="#" class="btn btn-primary" role="button">加入购物车</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                        </div>
-                      </div>
-                      <div class="thumbnail">
-                        <img src="../images/lb.jpg" alt="">
-                        <div class="caption">
-                          <h3></h3>
-                          <p>Teenmix/天美意2020夏新款商场同款休闲厚底闪钻贴片女凉拖鞋AW611BT0</p>
-                          <p><a href="#" class="btn btn-primary" role="button">加入购物车</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                        </div>
-                      </div>
-                      <div class="thumbnail">
-                        <img src="../images/lb.jpg" alt="">
-                        <div class="caption">
-                          <h3></h3>
-                          <p>Teenmix/天美意2020夏新款商场同款休闲厚底闪钻贴片女凉拖鞋AW611BT0</p>
-                          <p><a href="#" class="btn btn-primary" role="button">加入购物车</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                        </div>
-                      </div>
-                      <div class="thumbnail">
-                        <img src="../images/lb.jpg" alt="">
-                        <div class="caption">
-                          <h3></h3>
-                          <p>Teenmix/天美意2020夏新款商场同款休闲厚底闪钻贴片女凉拖鞋AW611BT0</p>
-                          <p><a href="#" class="btn btn-primary" role="button">加入购物车</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <ul>
+                    <li><img src="https://i2.ygimg.cn/pics/belle/2019/101277833/101277833_01_mb.jpg?11" alt="">
+                      <p>名称</p>
+                      <p>￥</p>
+                    </li>
+                  </ul>
+           </div>
             </div>
         </div>
     </div>
@@ -316,7 +285,24 @@
     <script src="../lib/jquery/dist/jquery.min.js"></script>
     <script src="../js/list.js"></script>
     <script src="../lib/swiper/js/swiper.js"></script>
+    <script src="../lib/pagination/pagination.js"></script>
+    
 
-</body>
+    <script>
+        $('.liu-ul >.liu-li ').click(function () {
+    // 点击的时候, 自己有 active 类名, 并且自己的子元素的 ol slideDown()
+    //            兄弟元素取消 active 类名, 并且兄弟元素下的 ol slideUp()
+    $(this)
+        .toggleClass('active')
+        .children('ol')
+        .slideToggle()
+        .parent()
+        .siblings()
+        .removeClass('active')
+        .children('ol')
+        .slideUp()
+});
+    </script>
+
 
 </html>

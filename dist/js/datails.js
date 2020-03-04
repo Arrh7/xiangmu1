@@ -1,1 +1,1 @@
-"use strict";
+"use strict";var goodsInfo=JSON.parse(localStorage.getItem("goods_info"));$("#exzoom").exzoom({autoPlay:!1});var count=$(".buy-left > .count").html();$(".buy-left .one").click(function(){count++,$(".buy-left > .count").html(count)}).next().click(function(){--count<0&&(count=0),$(".buy-left > .count").html(count)}),$(".span").children().click(function(){$(this).addClass("active").siblings().removeClass("active")});
