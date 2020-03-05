@@ -50,3 +50,140 @@
       
     }
   }
+
+  //logo
+  .logo{
+    width: 1190px;
+    margin: 0 auto;
+  }
+  //cart
+  .cart {
+    width: 1190px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #666;
+  
+    > .car-top {
+      height: 60px;
+      border-bottom: 1px solid #666;
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+  
+      > input {
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+      }
+        
+      > p {
+        padding-left: 100px;
+      }
+    }
+  
+    > .car-center {
+  
+  
+      > li {
+        display: flex;
+        margin: 10px;
+       
+  
+        > .select {
+          width: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          // border-right: 1px solid #333;
+  
+          > input {
+            width: 20px;
+            height: 20px;
+          }
+        }
+  
+        > .info {
+          display: flex;
+          align-items: center;
+          font-size: 12px;
+  
+          > img {
+            width: 60px;
+            height: 60px;
+            display: block;
+            margin-right: 10px;
+            border: 1px solid #666;
+          }
+        }
+  
+        > .price {
+          display: flex;
+          align-items: center;
+          font-size: 12px;
+          margin-left: 50px;
+        }
+  
+        > .number {
+          margin-left: 50px;
+          display: flex;
+          align-items: center;
+  
+          > button {
+            width: 30px;
+            height: 30px;
+          }
+  
+          > input {
+            height: 30px;
+            border: none;
+            outline: none;
+            width: 50px;
+            text-align: center;
+            font-size: 12px;
+          }
+        }
+  
+        > .xiaoji {
+          display: flex;
+          align-items: center;
+          margin-left: 50px;
+          font-size: 12px;
+        }
+  
+        > .del {
+          margin-left: 50px;
+          font-size: 12px;
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+        }
+      }
+    }
+  
+    > .car-bot {
+      height: 60px;
+      border-top: 1px solid #666666;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+  
+  
+      > p {
+        padding-left: 100px;
+      }
+  
+      > button {
+        margin-left: 80px;
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+  
+        &.pay {
+          background-color: skyblue;
+        }
+      }
+    }
+  }
+  
+  

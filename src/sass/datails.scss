@@ -96,7 +96,7 @@
     }
    
   }
-  .detail{
+  .goods_info{
     overflow: hidden;
     background-color: #fff;
     width: 100%;
@@ -133,9 +133,14 @@
           height: 100%;
           display: block;
         }
+     
+      }
+      #exzoom{
+        width: 480px;
+        float: left;
       }
       .content-right{
-        width: 585;
+        width: 585px;
         height: 642px;
         position: absolute;
         top: 0;
@@ -161,13 +166,18 @@
             color: red;
           }
         }
-        .price{
+        .content-price{
           position: relative;
           padding: 22px 0;
           font-size: 14px;
           color: #333;
           // border-top: 1px solid #ccc;
           border-bottom: 1px solid #ccc;
+         >.price{
+           font-weight: bold;
+           font-size: 18px;
+           color: #000;
+         }
           > span{
             display: inline-block;
             b{
@@ -259,7 +269,7 @@
         .buy{
           border-bottom: 1px solid #ccc;
           padding: 22px 0;
-          .buy-left{
+          .buy_left{
             margin-right: 5px;
             width: 90px;
             height: 64px;
@@ -293,7 +303,7 @@
               }        
             }
           }
-          .buy-center{
+          .buy_center{
             background-color: red;
             height: 64px;
             width: 136px;
@@ -308,7 +318,7 @@
             margin-left: 5px;
             outline: 0;
           }
-          .buy-right{
+          .buy_addCart{
             width: 136px;
             background-color: #fff;
             color: red;
