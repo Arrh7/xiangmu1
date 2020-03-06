@@ -5,11 +5,7 @@
 
     // 1. 获取 localStorage 里面的数据
     const info = JSON.parse(localStorage.getItem('goods_info'))
-     console.log(info);
-     
-
-
-
+    //  console.log(info);
 
     $("#exzoom").exzoom({
      
@@ -18,10 +14,13 @@
  });//方法调用，务必在加载完后执行
 
     // 判断一下数据
-    if (goods_info === null) {
-      alert('您查看的商品详情不存在了')
-    } else {
-      alert('我要渲染页面, 内容就是 ' + goods_info.name)
+    if (!info) {
+      // 能执行表示 !info 是一个 true
+      // 表示 info 是一个 false
+      // 表示数据不存在
+      alert('您要查看的数据不存在')
+      // 跳转回列表页面
+      window.location.href = './list.html'
     }
     
       

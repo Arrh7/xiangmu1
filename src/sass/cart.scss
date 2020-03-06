@@ -53,15 +53,35 @@
 
   //logo
   .logo{
-    width: 1190px;
+    width: 930px;
     margin: 0 auto;
+    height: 50px;
+    >.logo-img{
+      width: 166px;
+      height: 50px;
+      float: left;
+    }
+    >.logo-p{
+      background-color: #000;
+      color:#F5F5F5;
+    }
+    >p{
+      width: 100px;
+      // padding-right: 80px;
+      float: right;
+      margin-top: 20px;
+      margin-left: 80px;
+      color:#F5F5F5;
+      background-color: #666;
+    }
   }
   //cart
   .cart {
-    width: 1190px;
+    width: 930px;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
+    
     border: 1px solid #666;
   
     > .car-top {
