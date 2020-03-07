@@ -21,7 +21,48 @@
         padding: 0 16px;
         height: 40px;
         line-height: 40px;
+     
+      a:hover{
+          color: #fff;
+        }
+     
+    }
+      li{
+        float: left;
+
+        .code{
+          position: relative;
+    
+          .code-con{
+            position: absolute;
+            width: 130px;
+            height: 164px;
+            border: 1px solid #ccc;
+            top: 26px;
+            left: -30px;
+            text-align: center;
+            background-color: #fff;
+            display: none;
+          }
+          .code-con img{
+            margin-top: 15px;
+          }
+          .code-con p{
+            font-size: 14px;
+            color: #666;
+            margin-top: 2px;
+          }
+          .code:hover.code{
+            display: block;
+          }
+        }
       }
+      li a:hover{
+        color: #fff;
+      }
+     
+     
+  
     }
     .top-right{
       float: right;
